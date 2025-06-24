@@ -100,18 +100,15 @@ go_dashboard/
 
 ## Sample API Endpoints
 
-Endpoint	                Method	                  Description
+Endpoint |	                Method |	                  Description
 
-/api/country-revenue	       GET	                  Country-level revenue breakdown
+/api/country-revenue	|       GET	  |                Country-level revenue breakdown
 ---
-Endpoint	                Method	                  Description
-/api/top-products	          GET	                  Top 20 purchased products
+/api/top-products	|          GET	  |                Top 20 purchased products
 ---
-Endpoint	                Method	                  Description
-/api/monthly-sales	       GET	                  Monthly transaction counts
+/api/monthly-sales	|       GET	 |                 Monthly transaction counts
 ---
-Endpoint	                Method	                  Description
-/api/top-regions	          GET	                  Top 30 regions by revenue
+/api/top-regions	|          GET	   |               Top 30 regions by revenue
    
 
 ## Author
