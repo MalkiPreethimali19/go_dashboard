@@ -27,6 +27,7 @@ A high-performance web-based analytics dashboard that provides key metrics and v
 ## Project Structure
 
 go_dashboard/
+
 ├── backend/
 │ ├── config/ # DB connection logic
 │ ├── models/ # Data structures
@@ -34,6 +35,7 @@ go_dashboard/
 │ ├── handlers/ # HTTP handlers (controllers)
 │ ├── routes/ # API routes
 │ └── main.go # Entry point
+
 ├── frontend/ # Vue.js dashboard app (created via Vite)
 │ ├── components/ # Reusable UI components
 │ ├── views/ # Dashboard view
@@ -100,10 +102,16 @@ go_dashboard/
 
 Endpoint	                Method	                  Description
 
-/api/country-revenue	     GET	                  Country-level revenue breakdown
-/api/top-products	         GET	                  Top 20 purchased products
-/api/monthly-sales	         GET	                  Monthly transaction counts
-/api/top-regions	         GET	                  Top 30 regions by revenue
+/api/country-revenue	       GET	                  Country-level revenue breakdown
+---
+Endpoint	                Method	                  Description
+/api/top-products	          GET	                  Top 20 purchased products
+---
+Endpoint	                Method	                  Description
+/api/monthly-sales	       GET	                  Monthly transaction counts
+---
+Endpoint	                Method	                  Description
+/api/top-regions	          GET	                  Top 30 regions by revenue
    
 
 ## Author
