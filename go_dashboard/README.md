@@ -67,16 +67,16 @@ go_dashboard/
 ##  Frontend (Vue.js)
 
 **Install dependencies**
-   ```bash`
+
     cd frontend
-    npm install    
+    npm install   
 
 **Start frontend app**
-    ```bash
+
     npm run dev
 
 ## Running Tests
-    ```bash`
+    
     go test ./backend/... 
 
 
