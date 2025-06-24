@@ -26,8 +26,7 @@ A high-performance web-based analytics dashboard that provides key metrics and v
 
 ## Project Structure
 
-go_dashboard/
-
+```go_dashboard/
 ├── backend/
 │ ├── config/ # DB connection logic
 │ ├── models/ # Data structures
@@ -35,13 +34,12 @@ go_dashboard/
 │ ├── handlers/ # HTTP handlers (controllers)
 │ ├── routes/ # API routes
 │ └── main.go # Entry point
-
 ├── frontend/ # Vue.js dashboard app (created via Vite)
 │ ├── components/ # Reusable UI components
 │ ├── views/ # Dashboard view
 │ └── api.js # Axios API wrapper
 ├── go.mod
-└── README.md
+└── README.md```
 
 ---
 
