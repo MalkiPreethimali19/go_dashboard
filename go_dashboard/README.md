@@ -27,7 +27,7 @@ A high-performance web-based analytics dashboard that provides key metrics and v
 ## Project Structure
 
 <pre lang="markdown">
-```go_dashboard/
+go_dashboard/
 ├── backend/
 │ ├── config/ # DB connection logic
 │ ├── models/ # Data structures
@@ -40,7 +40,7 @@ A high-performance web-based analytics dashboard that provides key metrics and v
 │ ├── views/ # Dashboard view
 │ └── api.js # Axios API wrapper
 ├── go.mod
-└── README.md``` </pre> 
+└── README.md </pre> 
 
 ---
 
